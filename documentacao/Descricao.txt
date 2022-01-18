@@ -1,0 +1,19 @@
+Objetivo:
+-Desenvolvimento de um projeto para gerenciamento do estoque ate a pagina de vendas de uma cervejaria com o objetivo de aprendizado das técnologias utilizadas para desenvolvimento de um sistema web. O sistema terá 3(Cadastro/Estoque/Vendas) modulos sendo:
+
+Cadastro -> Modulo usado para cadastro desde novos usuarios para acesso ao sistema ate o cadastro de fornecedores e produtos. Neste módulo podera ser definido o cadastro de novos usuarios e tambem definição de perfil de acesso para os mesmos.
+
+Estoque -> Tem o objetivo de controle do estoque dos produtos dentre suas funções terá um controle minimo de estoque exibindo avisos quando houver baixas ou mesmo vencimentos de produtos e o cadastro de fornecedores.
+
+Vendas -> Será o site de vendas em si sendo que será possivel disponibilizar produtos para vendas online considerando a disponibilidade no estoque e um prazo minimo para que o produto possa ser disponibilizado. Uma observação será que o produto poderá ter um desconto percentual caso esteja proximo de seu vencimento.
+
+
+Técnologias usadas:
+-PHP
+-MariaDb
+-GitHub
+-POO
+-MVC
+-------------------------------------
+Bootstrap
+Jquery

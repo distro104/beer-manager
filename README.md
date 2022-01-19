@@ -26,9 +26,9 @@ for the product to be available. An observation is that the product may have a p
 
 * Technologies and tools used in this project
 This project use 
--> PHP with main language
--> MariaDb database
--> POO
--> MVC
--> Bootstrap
+  PHP with main language
+  MariaDb database
+  POO
+  MVC
+  Bootstrap
 

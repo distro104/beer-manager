@@ -1,4 +1,4 @@
-# beer_manager
+# Beer_manager
 
 Table contents:
 *Objective:

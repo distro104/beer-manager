@@ -13,7 +13,7 @@
     ],
 	"autoload": {
         "psr-4": {
-            "OtavioCruz\\BeerManager\\": "app/"
+            "App\\":"app/"
         }
     },
 	"files": [

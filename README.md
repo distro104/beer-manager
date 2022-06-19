@@ -24,8 +24,7 @@ or when one product is close to expirate.
 It will be the sales site itself and it will be possible to let products available for online sales considering the availability in stock and a minimum deadline
 for the product to be available. An observation is that the product may have a percentage discount if it is close to its expiration date.
 
-## Technologies and tools used in this project
-<em class="icon-photoshop">
+# Technologies and tools used in this project
   * PHP
   * MariaDb
   * POO

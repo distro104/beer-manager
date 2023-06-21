@@ -1,9 +1,16 @@
 {
-    "name": "laravel/laravel",
+    "name": "otavio.cruz/beer-manager",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "This have the objective to training the development of a software based in PHP language and MariaDb. The focus is a software that have the objective to manager from stock to sale an beer company.",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Otavio J. Cruz",
+            "email": "otaviojc@gmail.com",
+			"role":"Developer"
+        }
+    ],
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.2",

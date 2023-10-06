@@ -21,6 +21,7 @@ return new class extends Migration
             $table->date('dt_validity');
             $table->decimal('base_value',8,2);
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

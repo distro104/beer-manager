@@ -20,6 +20,7 @@ return new class extends Migration
             $table->date('dt_avaliable_end');
             $table->decimal('base_sale',8,2);
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

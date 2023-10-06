@@ -18,6 +18,7 @@ return new class extends Migration
             $table->unsignedBigInteger('access_type_id');
             $table->foreign('access_type_id')->references('id')->on('access_types');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

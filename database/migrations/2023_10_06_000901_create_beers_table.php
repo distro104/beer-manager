@@ -14,8 +14,10 @@ return new class extends Migration
         Schema::create('beers', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('slug');
             $table->string('type');
             $table->text('description');
+            $table->text('tecnical_description');
             $table->string('image');
             $table->timestamps();
             $table->softDeletes();

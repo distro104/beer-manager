@@ -11,8 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('user_details', function (Blueprint $table) {
+        Schema::create('offers', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('lot_id');
+            $table->foreign('lot_id')->references('id')->on('lots');
+            $table->integer('quantity');
+            $table->date('dt_avaliable_ini');
+            $table->date('dt_avaliable_end');
+            $table->decimal('base_sale',8,2);
             $table->timestamps();
         });
     }
@@ -22,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('user_details');
+        Schema::dropIfExists('offers');
     }
 };

@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('lots', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('beer_id');
+            $table->foreign('beer_id')->references('id')->on('beers');
+            $table->unsignedBigInteger('provider_id');
+            $table->foreign('provider_id')->references('id')->on('providers');
+            $table->date('dt_received');
+            $table->date('dt_validity');
+            $table->decimal('base_value',8,2);
             $table->timestamps();
         });
     }

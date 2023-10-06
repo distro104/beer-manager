@@ -11,8 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('access_types', function (Blueprint $table) {
+        Schema::create('user_details', function (Blueprint $table) {
             $table->id();
+            $table->string('document_number')->unique()->nullable();
+            $table->string('address')->nullable();
+            $table->unsignedBigInteger('access_type_id');
+            $table->foreign('access_type_id')->references('id')->on('access_types');
             $table->timestamps();
         });
     }
@@ -22,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('access_types');
+        Schema::dropIfExists('user_details');
     }
 };

@@ -16,7 +16,8 @@ enum TypeBeerEnum: int
        self::ALTBIER => 'Altbier',
        self::AMBER_ALE => 'Amber ale',
        self::BARLEY_WINE => 'Barley wine',
-       self::BERLINER_WEISSE => 'Berliner Weisse'
+       self::BERLINER_WEISSE => 'Berliner Weisse',
+       default => 'not found'
     };
   }
 

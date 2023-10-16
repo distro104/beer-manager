@@ -11,6 +11,6 @@
 |
 */
 
-Route::prefix('webserver')->group(function() {
-    Route::get('/', 'WebserverController@index');
+Route::prefix('webservice')->group(function() {
+    Route::get('/', 'WebserviceController@index');
 });

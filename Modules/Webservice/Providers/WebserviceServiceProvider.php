@@ -1,21 +1,21 @@
 <?php
 
-namespace Modules\Webserver\Providers;
+namespace Modules\Webservice\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Factory;
 
-class WebserverServiceProvider extends ServiceProvider
+class WebserviceServiceProvider extends ServiceProvider
 {
     /**
      * @var string $moduleName
      */
-    protected $moduleName = 'Webserver';
+    protected $moduleName = 'Webservice';
 
     /**
      * @var string $moduleNameLower
      */
-    protected $moduleNameLower = 'webserver';
+    protected $moduleNameLower = 'webservice';
 
     /**
      * Boot the application events.

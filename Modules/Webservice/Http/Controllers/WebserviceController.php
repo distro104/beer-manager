@@ -1,12 +1,12 @@
 <?php
 
-namespace Modules\Webserver\Http\Controllers;
+namespace Modules\Webservice\Http\Controllers;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
-class WebserverController extends Controller
+class WebserviceController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class WebserverController extends Controller
      */
     public function index()
     {
-        return view('webserver::index');
+        return view('webservice::index');
     }
 
     /**
@@ -23,7 +23,7 @@ class WebserverController extends Controller
      */
     public function create()
     {
-        return view('webserver::create');
+        return view('webservice::create');
     }
 
     /**
@@ -43,7 +43,7 @@ class WebserverController extends Controller
      */
     public function show($id)
     {
-        return view('webserver::show');
+        return view('webservice::show');
     }
 
     /**
@@ -53,7 +53,7 @@ class WebserverController extends Controller
      */
     public function edit($id)
     {
-        return view('webserver::edit');
+        return view('webservice::edit');
     }
 
     /**

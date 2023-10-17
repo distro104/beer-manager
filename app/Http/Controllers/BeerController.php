@@ -12,6 +12,7 @@ class BeerController extends Controller
     public function index()
     {
         //
+        return "index";
     }
 
     /**

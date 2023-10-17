@@ -17,7 +17,12 @@ class BeerFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'name' => $this->faker->unique()->word,
+            'slug' => $this->faker->unique()->word,
+            'type'  => $this->faker->word,
+            'description' => $this->faker->text,
+            'tecnical_description' => $this->faker->text,
+            'image' => $this->faker->unique()->text,
         ];
     }
 }

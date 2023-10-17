@@ -11,8 +11,9 @@ class BeerController extends Controller
      */
     public function index()
     {
-        //
-        return "index";
+        //return "index";
+        $beer = \App\Models\Beer::all();
+        return dd($beer);
     }
 
     /**
